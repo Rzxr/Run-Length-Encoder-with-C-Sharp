@@ -22,7 +22,6 @@ namespace RLE
             enteredString = enteredString + " ";
 
             //Compress Using Run Length Encoding 
-
             for (int i = 0; i < enteredString.Length - 1; i++)
             {
                 if (enteredString[i] == enteredString[i + 1]) //When same increment counter
